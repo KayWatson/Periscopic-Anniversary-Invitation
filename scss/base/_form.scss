@@ -1,0 +1,75 @@
+form{
+	font-family: Georgia, serif;
+	color: $body-blue;
+	.required-message{
+	display: none;
+	}
+	p{
+		padding: 0;
+		margin: 0;
+		line-height: 2px;
+	}
+}
+
+ul{
+	padding-top: 10px;
+}
+.ss-choice-label{
+	padding-left: 10px;
+	line-height: -10px;
+}
+
+.ss-q-radio{
+	background-color: #ffffff;
+}
+
+.ss-q-item-label h3{
+	font-size: 1em;
+}
+
+.ss-q-title{
+	color: $header-green;
+	font-family: $header-sans-serif;
+	font-weight: 600;
+	font-size: 1.2em;
+	padding-bottom: 10px;
+}
+#navigation-buttons{
+	border: none;
+}
+
+table{
+	border: none;
+	background-color: $background-color;
+}
+
+#navigation-table input{
+	background-color: $header-green;
+	padding: 10px 50px;
+	border: none;
+	color: #ffffff;
+	font-family: $header-sans-serif;
+	font-size: 1.2em;
+	font-weight: 600;
+	text-transform: uppercase;
+	border-radius: $default-border-radius;
+	-webkit-box-shadow: 2px 3px 4px 0px rgba(185, 199, 202, 0.6);
+	-moz-box-shadow:    2px 3px 4px 0px rgba(185, 199, 202, 0.6);
+	box-shadow:         2px 3px 4px 0px rgba(185, 199, 202, 0.6);
+	&:hover{
+		background-color: $hover-green;
+	}
+
+}
+
+ol{
+	margin-left: 0;
+}
+
+.ss-q-short{
+	margin-bottom: 5px;
+}
+
+#ss-form{
+	padding-top: 20px;
+}
