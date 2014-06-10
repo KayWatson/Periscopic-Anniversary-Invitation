@@ -23,9 +23,7 @@ h1, h2, h4{
 	color: $header-blue;
 	font-weight: 700;  
 	text-shadow: 1px 1px 0 #fff, -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff, 2px 2px 3px rgba(185,199,202,1);
-
 }
-
 h1,h2{
 	font-size: 3.3em;
 	text-align: center;
@@ -89,30 +87,6 @@ p{
   @include text-shadow(rgba(185,199,202, 0.2) 2px 2px 0, rgba(185,199,202, 0.2) 2px 2px 0, rgba(185,199,202, 0.2) 3px 3px 0);
 }
 
-.schedule_left--container, .schedule_left--time, .schedule_right--container, .schedule_right--time{
-	padding: 0;
-	margin: 0;
-}
-
-
-.schedule_left{
-	padding: 0;
-	margin: 0;
-}
-
-.schedule_left--container p, .schedule_right--container p{
-	font-size: .75em;
-}
-
-.schedule_left--item{
-	//border: 1px solid blue;
-	padding-right: 20px;
-	padding-left: 0;
-}
-
-.schedule_right--time, .schedule_left--time{
-	padding: 0;
-}
 
 .uppercase{
 	text-transform:uppercase;
